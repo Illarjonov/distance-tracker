@@ -1,0 +1,30 @@
+td {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    min-width: 300px;
+    align-content: center;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+tr:hover td {
+    color: #6699ff;
+}
+.btn {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    padding: 10px;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+.btn:hover {
+    background-color: #4f414d;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    margin-bottom: 60px;
+}

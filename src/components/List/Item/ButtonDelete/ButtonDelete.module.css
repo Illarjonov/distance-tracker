@@ -1,0 +1,67 @@
+h4{
+    padding: 10px;
+}
+.btn {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Montserrat;
+}
+.btn:hover {
+    background-color: rgba(255, 166, 160, 0.61);
+    border-radius: 10px;
+}
+.btnDel{
+    background-color: rgba(255, 166, 160, 0.68);
+    border: none;
+    color: inherit;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Montserrat;
+    width: 45%;
+    padding: 5px;
+    margin: 5%;
+}
+.btnDel:hover{
+    background-color: rgb(255, 104, 100);
+    border: none;
+    color: inherit;
+    padding: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Montserrat;
+    width: 45%;
+}
+.btnCancel{
+    background-color: rgb(255, 232, 227);
+    border: none;
+    color: inherit;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Montserrat;
+    width: 45%;
+    padding: 5px;
+    margin: 5%;
+}
+.btnCancel:hover{
+    background-color: rgba(255, 252, 235, 0.9);
+    border: none;
+    color: inherit;
+    padding: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Montserrat;
+    width: 45%;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+}

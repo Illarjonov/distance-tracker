@@ -1,0 +1,47 @@
+.tableRow{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-bottom: 5px solid #a892b7;
+  padding-bottom: 30px ;
+  font-size: 20px;
+  font-weight:bold;
+}
+th {
+  font-weight: normal;
+  color: #039;
+  border-bottom: 2px solid #6678b1;
+  padding: 10px 8px;
+}
+td {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 24px;
+  min-width: 300px;
+}
+.info{
+  display: flex;
+  justify-content: center;
+  margin-left: 60px;
+}
+.infoAdd{
+  display: flex;
+  font-size: 25px;
+  align-items: flex-end;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.btn:hover {
+  background-color: #d7c0bc;
+  border-radius: 15px;
+}
+.info span{
+  margin-right: 3px;
+}

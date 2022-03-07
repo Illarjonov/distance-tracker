@@ -1,0 +1,10 @@
+.tableItem{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-bottom: 5px solid #e4cdf2;
+
+}
