@@ -36,6 +36,7 @@ const ItemDistance = ({item, countDistance}) => {
     };
 
     return (
+<div>
     <td style={{marginLeft: "100px"}}>
         {isOpenDistance && true
         ?  <Modal
@@ -97,6 +98,7 @@ const ItemDistance = ({item, countDistance}) => {
             className={classes.btn}
         >   <i className="fa fa-pencil-square-o"> </i>     </button>
     </td>
+</div>
     )
 };
 export default ItemDistance;

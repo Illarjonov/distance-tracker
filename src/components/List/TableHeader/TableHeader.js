@@ -19,7 +19,7 @@ const TableHeader = () =>{
     const sortByDateMinus = useCallback(() => {dispatch(sortByDateMinusAction())},[dispatch]);
 
     return(
-            <div className={classes.tableRow}>
+<div className={classes.tableRow}>
                 <td className={classes.info}>
 
                     <span>Дата</span>
@@ -53,7 +53,7 @@ const TableHeader = () =>{
                 <td className={classes.infoAdd} >
                     <AddItem/>
                 </td>
-            </div>
+</div>
             )
        }
 export default TableHeader;
