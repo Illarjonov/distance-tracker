@@ -55,7 +55,7 @@ const AddItem = () => {
         contentLabel="My dialog"
         style={{
                overlay:{
-                   backgroundColor: "rgba(214,235,183,0.9)",
+                   backgroundColor: "rgba(215, 192, 188, 0.6)",
                    position: "fixed",
                    display: "flex",
                    justifyContent: "center",
@@ -67,14 +67,15 @@ const AddItem = () => {
                    display: "flex",
                    alignItems: "center",
                    flexDirection: "column",
-                   backgroundColor: "rgb(214,235,183, 0.9)",
+                   backgroundColor: "rgba(215, 192, 188, 0.6)",
                    position: 'relative',
                    inset: "-20% 0",
                    border: "none",
                    overflow: "initial",
                    borderRadius: '20px',
                    paddingLeft:"20px",
-                   paddingRight:"20px"
+                   paddingRight:"20px",
+                   paddingBottom: "50px"
                }
        }}>
 

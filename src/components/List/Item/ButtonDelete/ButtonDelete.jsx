@@ -39,7 +39,7 @@ const ButtonDelete = ({item}) => {
                 style={{
                     overlay:{
                         position: "fixed",
-                        backgroundColor: "rgba(255,221,214,0.8)",
+                        backgroundColor: "rgba(215, 192, 188, 0.6)",
                         display: "flex",
                         justifyContent: "center",
                         alignItems: "center",
@@ -49,7 +49,7 @@ const ButtonDelete = ({item}) => {
                     content: {
                         position: 'relative',
                         inset: "-20% 0",
-                        backgroundColor: "rgba(251, 220, 220 , 0.8)",
+                        backgroundColor: "rgba(215, 192, 188, 0.6)",
                         border: "none",
                         overflow: "initial",
                         borderRadius: '20px'
